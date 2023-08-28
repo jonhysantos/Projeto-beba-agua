@@ -17,7 +17,7 @@ function clicar() {
     }else if(kilos.value === 0){
         window.alert('Por favor digite seu peso')
     }else{
-        res.innerHTML = `Você tem que beber ${q} ml  por dia`
+        res.innerHTML = `Você tem deve beber ${q} ml  por dia`
         form.style.height = '300px'
         res.style.background = 'blue'
         res.style.color = 'white'
