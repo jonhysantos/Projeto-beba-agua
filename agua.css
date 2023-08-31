@@ -30,6 +30,7 @@ header {
 }
 
 #center {
+    font-size: 2em;
     color: white;
     text-align: center;
 }
@@ -158,7 +159,9 @@ aside {
 
     #tabbr {
         padding: 20px;
-    }
+    }<a href="https://www.instagram.com/jonhyalberto_35/"><img  class="image" src="logo-instagram.jpg" alt="uma logo do instagram"></a>
+    <a href="https://github.com/jonhysantos"><img class="image2" src="logo-github.jpg" alt="logo do GitHub"></a>
+    <a href="https://pt-br.facebook.com/people/Guimar%C3%A3es-Modinhas/pfbid029doMM2tvQ7aRbZXqQ3ptrGt8pCvMn4Ffz5A5cDJGczzXg2PBniEKG8VW7RyHmwx2l/" target="_blank" rel="external"><img class="image2" src="logo-gumaraes.jpg" alt="logo da loja guimaães modas (patrocínio)"></a>
 
     .tab {
         width: 500px;
