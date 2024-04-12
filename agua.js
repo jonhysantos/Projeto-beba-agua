@@ -11,7 +11,7 @@ function clicar() {
     let q = ml * kg
     let res = window.document.querySelector('p#res')
     let form = window.document.querySelector('div#form')
-    if(anos.value.length == 0) {
+    if(anos.value.length == 0 || anos.value > 115) {
         anos.style.border = '3px solid red'
         anos.style.background = '#ffff0092'
         window.alert('Por favor digite sua idade')
@@ -20,10 +20,12 @@ function clicar() {
         kilos.style.border = '3px solid red'
         kilos.style.background = '#ffff0092'
     }else{
-        res.innerHTML = `Você deve beber ${q} ml  por dia.`
-        form.style.height = '300px'
-        res.style.background = 'blue'
-        res.style.color = 'white'
+        res.innerHTML = `Você tem ${idade} anos e pesa ${kg} kg, portando deve beber ${q} ml ao longo do dia.`
+        form.style.height += '300px'
+        res.style.background += 'blue'
+        res.style.color += 'white'
+        anos.value = ''
+        anos.focus()
     }
     
      
